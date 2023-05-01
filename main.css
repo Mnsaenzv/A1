@@ -7,7 +7,7 @@
 
 body{
     background-color: #F5F5F5;
-    color: #f4f4f4;
+    color: #141414;
 }
 
 header {
@@ -51,13 +51,13 @@ h1 {
 }
 
 .link a {
-    font-size: 700;
-    color: #fff;
+    font-weight: 700;
+    color: #141414;
     text-decoration: none;
 }
 
 .link li a:hover {
-    color: #5ca6c6;
+    color: #e9eaeb;
 }
 
 footer{
@@ -69,7 +69,7 @@ footer{
     height: auto;
     width: 100vw;
     padding-top: 20px;
-    color: #fff;
+    color: #141414;
 }
 
 footer p {
@@ -77,6 +77,7 @@ footer p {
     justify-content: center;
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 700;
 }
 
 h2 {
@@ -91,11 +92,7 @@ h2 {
     
 }
 
-.container {
-    position: relative;
-}
-
-.containerbackground {
+.letras-fondo {
     position: absolute;
     font-size: 320px;
     margin-left: 120px;
@@ -103,4 +100,61 @@ h2 {
     color: #D9D9D9;
     letter-spacing: 150px;
     margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 120px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.container .img-1 {
+    padding: 0 10px;
+}
+
+.container .img-1 p{
+    padding: 0 15px;
+}
+
+.container .img-2 {
+    padding: 0 150px;
+}
+
+.container .img-2 p {
+    padding: 0 30px;
+}
+
+.container .img-3 {
+    padding: 0 10px;
+}
+
+.container .img-3 p{
+    padding: 0 7px;
+}
+
+.container .img-4 {
+    padding: 0 130px;
+}
+
+.container .img-4 p{
+    padding: 0 35px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #141414;
+    transition: all 0.3s;
+}
+
+.container a:hover {
+    color: #6706A5;
+}
+
+.container img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
 }

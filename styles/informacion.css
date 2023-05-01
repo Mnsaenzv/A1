@@ -9,7 +9,7 @@
 
 body{
   background-color: #F5F5F5;
-  color: #fff;
+  color: #141414;
 }
 
 header {
@@ -22,7 +22,7 @@ header {
 }
 
 header nav li a{
-  color: #fff;
+  color: #141414;
 }
 
 nav ul li {
@@ -53,13 +53,13 @@ nav ul li {
 }
 
 .link a {
-  font-size: 700;
-  color: #fff;
+  font-weight: 700;
+  color: #141414;
   text-decoration: none;
 }
 
 .link li a:hover {
-  color: #5ca6c6;
+  color: #e9eaeb;
 }
 
 footer{
@@ -71,7 +71,7 @@ footer{
   height: auto;
   width: 100vw;
   padding-top: 20px;
-  color: #fff;
+  color: #141414;
 }
 
 footer p {
@@ -79,6 +79,7 @@ footer p {
   justify-content: center;
   text-align: center;
   margin-bottom: 30px;
+  font-weight: 700;
 }
 
 /*Fin de header y footer*/
